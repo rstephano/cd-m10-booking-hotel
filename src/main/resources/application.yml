@@ -1,0 +1,10 @@
+server:
+  port: 81
+info:
+  component: Booking Hotel Service
+spring:
+  application:
+    name: booking-hotel-service
+  sleuth:
+    sampler:
+      probability: 1.0
